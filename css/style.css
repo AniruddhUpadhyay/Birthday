@@ -1,0 +1,147 @@
+ body {
+     background-color: #4A148C
+ }
+
+ @media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem
+     }
+ }
+
+ .padding {
+     padding: 5rem
+ }
+ .photoSection{
+     display:flex;
+     flex-direction:row;
+     align-items: center;
+     justify-content:center;
+     background:#f2f2f2;
+ }
+.herCard{
+    width: 210px;
+    min-height:300px;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 11px;
+    display:inlin-block;
+    margin:20px 30px;
+    padding:35px;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.card1{
+    background-image:url(../img/1.jpeg);
+}
+.card2{
+    background-image:url(../img/2.jpeg);
+}
+.card3{
+    background-image:url(../img/3.jpeg);
+}
+.card4{
+    background-image:url(../img/4.jpeg);
+}
+.card5{
+    background-image:url(../img/5.jpeg);
+}
+.card6{
+    background-image:url(../img/6.jpeg);
+}
+.card7{
+    background-image:url(../img/7.jpeg);
+}
+ .card {
+     position: relative;
+     display: flex;
+     width: 350px;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid #d2d2dc;
+     border-radius: 11px;
+     -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+     -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+     box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+ }
+
+ .card .card-body {
+     padding: 1rem 1rem
+ }
+
+ .card-body {
+     flex: 1 1 auto;
+     padding: 1.25rem
+ }
+
+ p {
+     font-size: 0.875rem;
+     margin-bottom: .5rem;
+     line-height: 1.5rem
+ }
+
+ h4 {
+     line-height: .2 !important
+ }
+
+ .profile {
+     margin-top: 16px;
+     margin-left: 11px
+ }
+
+ .profile-pic {
+     width: 58px
+ }
+
+ .cust-name {
+     font-size: 18px
+ }
+
+ .cust-profession {
+     font-size: 10px
+ }
+
+ .items {
+     width: 90%;
+     margin: 0px auto;
+     margin-top: 100px
+ }
+
+ .slick-slide {
+     margin: 10px
+ }
+ @keyframes animatedBackground {
+    from {
+      background-size: cover;
+      background-position: 50% 22%;
+    }
+    to {
+      background-size: cover;
+      background-position: 100% 22%;
+    }
+  }
+  .photoSection{
+    background-repeat: no-repeat;
+    background-image: url(../img/gringes.png);
+    background-size: cover;
+    background-position: 100% 22%;
+    background-position: center center;
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+     animation: animatedBackground 10s linear infinite alternate;;
+  }
